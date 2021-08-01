@@ -1,0 +1,23 @@
+*****Pre-requisites*****
+1. Java.
+2. Eclipse or any JAVA IDE of your choice.
+3. Latest Chrome & Firefox browsers. 
+
+*****Dependencies*****
+1. Selenium
+2. TestNG
+3. Log4j
+
+
+*****How to run*****
+1. Download the source code from github repository. i.e. https://github.com/roshangujar2690/gutenbergProject/tree/master
+2. Unzip and place the folder in your default/desired workplace.
+3. Open Eclipse and import this project into your workplace.
+4. Wait for all the dependencies/libraries to download.
+5. Right click on the project and run as 'Maven test'.
+6. Verify the test results on console and surefire-reports in the target folder.
+
+*****Test cases automated*****
+1. Verify the title of the page i.e. "React App"
+2. Verify the header of the page i.e. "Gutenberg Project"
+3. Verify all valid/invalid links of ebooks from the DRAMA categories.
