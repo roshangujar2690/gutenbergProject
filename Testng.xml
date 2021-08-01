@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GutenBerg">
+
+	<test name="GutenBerg Project Test">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.gutenbergProject.testCases.TC_HomePageTest_001" />
+		</classes>
+
+	</test>
+
+</suite>
